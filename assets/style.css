@@ -1,0 +1,16 @@
+body {
+background: salmon;
+font-family: system-ui, sans-serif;
+}
+  nav {
+    background: rgba(255,255,255,0.75);
+    display: flex;
+  }
+
+nav a {
+  padding: 20px;
+}
+
+nav a.active {
+  background: white;
+}
