@@ -1,6 +1,7 @@
 body {
 background: salmon;
 font-family: system-ui, sans-serif;
+font-size: 20px;
 }
   nav {
     background: rgba(255,255,255,0.75);
@@ -8,9 +9,16 @@ font-family: system-ui, sans-serif;
   }
 
 nav a {
+  color:black;
   padding: 20px;
+  text-decoration: none;
+  transition: background-color:0.4s;
 }
 
 nav a.active {
   background: white;
+}
+
+nav a:hover{
+  background: rgba(255,255,255,0.4);
 }
